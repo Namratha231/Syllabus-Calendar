@@ -55,3 +55,34 @@ Display syllabus as a calendar inside the app.
 Export events as .ics file to import into Google Calendar, Outlook, or Apple Calendar.
 Modern UI using TailwindCSS and shadcn/ui.
 
+Approach & Implementation
+
+Parsing Input
+
+The app accepts either typed or uploaded syllabus text.
+
+Regex + date-fns utilities are used to detect and extract dates.
+
+Event Creation
+
+Events are structured with:
+
+Title (e.g., Assignment 1 Due)
+
+Date & optional time
+
+Description
+
+Calendar Integration
+
+Events are exported to an .ics file using the ics library.
+
+Users can import this file directly into calendar applications.
+
+UI/UX Design
+
+Built with shadcn/ui and TailwindCSS for a clean, responsive interface.
+
+Simple workflow: Input → Preview → Download Calendar.<img width="1915" height="815" alt="Screenshot 2025-09-19 203649" src="https://github.com/user-attachments/assets/2f559fc1-f9b6-4832-a897-776d1e9c5075" />
+
+
