@@ -83,6 +83,4 @@ UI/UX Design
 
 Built with shadcn/ui and TailwindCSS for a clean, responsive interface.
 
-Simple workflow: Input → Preview → Download Calendar.<img width="1915" height="815" alt="Screenshot 2025-09-19 203649" src="https://github.com/user-attachments/assets/2f559fc1-f9b6-4832-a897-776d1e9c5075" />
-
 
